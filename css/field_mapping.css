@@ -1,0 +1,183 @@
+.field-mapper.container {
+  width: auto;
+  padding: 32px;
+}
+.field-mapper > .content.row > .arrow {
+  color: #878c90;
+  text-align: center;
+  height: 32px;
+  padding: 6px;
+}
+.field-mapper > .content.row > .context-menu {
+  text-align: right;
+}
+
+.field-mapper > .content.row {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d6dfe6;
+}
+
+.field-mapper > .content.row:last-child {
+  border-bottom: none;
+}
+
+.field-mapper > .add-mapping.row {
+  text-align: right;
+}
+
+.fieldmapping {
+  display: block;
+}
+
+.fieldmapping .field-id,
+.fieldmapping .field-label {
+  font-size: 12px;
+  color: #737373;
+  padding-top: 5px;
+}
+.fieldmapping > .help-block {
+  min-height: 30px;
+  white-space: nowrap;
+  min-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fieldmapping-fixedfield .field-label,
+.fieldmapping .field-label.control-label {
+  height: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333 !important; /* Someone set important on .control-label in base bootstrap file, so now the rest of us have to suffer. */
+  margin: 0px;
+}
+
+.has-error .fieldmapping-fixedfield .field-label {
+  padding: 6px;
+  border: 1px solid;
+  border-color: #e4001e;
+  border-radius: 2px;
+}
+
+.fieldmapping-static-input-field .field-value.form-group {
+  margin: 0px;
+}
+
+.fieldmapping-dynamic-date-field {
+  text-align: right;
+}
+.fieldmapping-dynamic-date-field > * {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.fieldmapping-dynamic-date-field .field-label.control-label {
+}
+.fieldmapping-dynamic-date-field > .btn-group {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 76px;
+}
+.fieldmapping-dynamic-date-field > input.field-value {
+  width: 60px;
+}
+.fieldmapping-dynamic-date-field > .Select.field-value {
+  width: 90px;
+  text-align: left;
+}
+.fieldmapping-dynamic-date-field > .btn-group > .btn.active {
+  z-index: 0;
+}
+
+.field-mapper .dropdown-menu > li > a {
+  padding-left: 30px;
+}
+.field-mapper .form-group {
+  margin: 0px;
+}
+
+/*
+============================
+Advanced field-mapping style
+============================
+*/
+.fieldmapping-advanced-field .fieldmapping-advanced-toolbar {
+  width: 100%;
+  background-color: #f2f4f6;
+  display: block;
+  padding: 4px 0px;
+}
+
+.fieldmapping-advanced-field .fieldmapping-advanced-editor {
+  border: 1px solid #dfe4e7;
+}
+
+.fieldmapping-advanced-field .DraftEditor-root div {
+  display: inline;
+}
+
+.fieldmapping-advanced-field .DraftEditor-root figure {
+  display: inline-block;
+}
+
+.fieldmapping-advanced-toolbar .dropdown {
+  float: right;
+}
+
+.token-remove-button {
+  color: #797b7c;
+  font-size: 12px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.token-label-object {
+  background-color: #fad55b;
+  color: #333;
+  font-size: 80%;
+}
+
+.token-label-static-date {
+  background-color: #d0f4ff;
+  color: #333;
+  font-size: 80%;
+}
+
+.token-label-dynamic-date {
+  background-color: #dee2e3;
+  color: #333;
+  font-size: 80%;
+}
+
+.token-popover {
+  min-width: 380px;
+}
+
+.token-popover .popover-title {
+  height: 36px;
+}
+
+.token-popover .popover-content {
+  padding: 0px;
+}
+
+.token-popover .popover-title-span {
+  font-size: '14px';
+  font-weight: 500;
+}
+
+.token-popover-content {
+  padding: 9px 14px;
+}
+
+.token-popover-content .form-group {
+  min-width: 330px;
+}
+
+.token-badge {
+  margin-left: '3px';
+}
